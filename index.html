@@ -3,38 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>营销号生成器</title>
-<style type="text/css">
-	.p {
-		font-weight: 900;
-		margin-left: 80px;
-		margin-bottom: 30px;
-	}
-	.h {
-		font-size: 40px;
-		font-family: "微软雅黑";
-		margin-left: 80px;
-	}
-	input {
-		margin-left: 80px;
-		padding-top: 5px;
-		padding-bottom: 5px;
-		width: 400px;
-	}
-	.box {
-		border-style: solid;
-		border-width: 1px;
-		position: fixed;
-		left: 550px;
-		top: 100px;
-		width: 500px;
-		height: 250px;
-		word-wrap: break-word; 
-		word-break: break-all;
-		overflow: hidden;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="yxh.css" />
 <!--jQuery：
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>-->
 </head>
@@ -62,20 +31,6 @@
 	<div class="p">
 		<button style="font-size: 15px;" onClick="chuli()">生成</button>
 	</div>
-	<script>
-		function chuli() {
-			"use strict";
-			var x = document.getElementById("zhuti").value;
-			var y = document.getElementById("shijian").value;
-			var z = document.getElementById("shuofa").value;
-			console.log("主体：" + x);
-			console.log("事件：" + y);
-			console.log("另一种说法：" + z);
-			var first_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + x + y + "是怎么回事呢?" + x + "相信大家都很熟悉,但是" + x + y +"是怎么回事呢，下面就让小编带大家一起了解吧。";
-			var second_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + x + y +",其实就是" + z + ",大家可能会很惊讶"+ x +"怎么会" + y + "呢?但事实就是这样,小编也感到非常惊讶。";
-			var third_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这就是关于" + x + y +"的事情了,大家有什么想法呢,欢迎在评论区告诉小编一起讨论哦!";
-			document.getElementById("return").innerHTML=first_page + "<br/>" + second_page + "<br />" + third_page;
-		}
-	</script>
+	<script src="yxh.js"></script>
 </body>
 </html>

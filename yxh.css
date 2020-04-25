@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p {
+	font-weight: 900;
+	margin-left: 80px;
+	margin-bottom: 30px;
+	}
+.h {
+	font-size: 40px;
+	font-family: "微软雅黑";
+	margin-left: 80px;
+}
+input {
+	margin-left: 80px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 400px;
+}
+.box {
+	border-style: solid;
+	border-width: 1px;
+	position: fixed;
+	left: 550px;
+	top: 100px;
+	width: 500px;
+	height: 250px;
+	word-wrap: break-word; 
+	word-break: break-all;
+	overflow: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
