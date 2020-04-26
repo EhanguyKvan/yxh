@@ -24,7 +24,7 @@ function chuli() {
 		console.log("另一种说法：" + z);
 		var first_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;众所周知，" + x + "不可能" + y + "。但是，最近传闻却并非如此。这是怎么回事呢？下面就让小编带大家一起了解吧。";
 		var second_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + x + y +"的原因其实很简单，就是" + z + "。想必大家肯定非常惊讶吧，无论从哪一方面来说，"+ x +"都不会" + y + "啊。但经过多方考证后，" + x + "确实会" + y + "。对此，只能说是世间之大无奇不有了。";
-		var third_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近日有关" + x + y +"的曝光就到此为止了,若还想继续了解更多惊奇的事情，还请关注小编以获得最新动态哦。";
+		var third_page = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有关" + x + y +"的曝光就到此为止了,若还想继续了解更多惊奇的事情，还请关注小编以获得最新动态哦。";
 		document.getElementById("return").innerHTML=first_page + "<br/>" + second_page + "<br />" + third_page;
 	}
 }
